@@ -28,23 +28,32 @@ function doMath(operation, a, b) {
   console.log(operation);
 
   if (typeof operation !== "string") {
-    throw new Error("operation should be a string");
+    throw new Error("operation should be a string.");
+  } else if (
+    !(
+      operation === "add" ||
+      operation === "min" ||
+      operation === "div" ||
+      operation === "mul"
+    )
+  ) {
+    return "invalid operation";
   } else if (typeof a !== "number") {
-    throw new Error("a should be a number");
+    throw new Error("Value1 should be a number.");
   } else if (typeof b !== "number") {
-    throw new Error("b should be a number");
+    throw new Error("Value2 should be a number.");
   } else {
     // write your code below this comment:
     var calculate;
     var a = parseInt(a);
     var b = parseInt(b);
-    if (operation == "add") {
+    if (operation === "add") {
       calculate = a + b;
-    } else if (operation == "min") {
+    } else if (operation === "min") {
       calculate = a - b;
-    } else if (operation == "div") {
+    } else if (operation === "div") {
       calculate = a / b;
-    } else if (operation == "mul") {
+    } else if (operation === "mul") {
       calculate = a * b;
     }
     console.log(calculate);
