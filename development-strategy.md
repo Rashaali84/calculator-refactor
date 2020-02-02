@@ -37,7 +37,7 @@ wireframe :  https://wireframe.cc/fGnuIN
 
 |  type | attached to | callback |
 | --- | --- | --- |
-| event0listner for 'click' event| attached to the button which has the id ="btnOperation" | the call back for funcion calc() in listener.js|
+| event-listener for 'click' event| Attached to the button which has the id ="btnOperation" | The call back for funcion calc() in listener.js|
 
 ## Handlers
 
@@ -49,5 +49,5 @@ wireframe :  https://wireframe.cc/fGnuIN
 
 | syntax | parameters | return value | behavior |
 | --- | --- | --- | --- |
-|   calculate = doMath(op, a, b);| operation and the two values | return the final result to handeler | do the whole logic |
+|   calculate = doMath(op, a, b);| operation and the two values | return the final result to handler | do the whole logic |
 
