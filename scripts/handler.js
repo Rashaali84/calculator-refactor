@@ -1,6 +1,9 @@
 function calculateHandler(a, b, op) {
   try {
-
+    // read & process user input from event
+    a = parseInt(a);
+    b = parseInt(b);
+    op = op.toString();
     // pass user input through core logic
 
     var calculate;
