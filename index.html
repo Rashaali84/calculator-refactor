@@ -11,7 +11,7 @@
   </head>
 
   <body>
-    <form>
+    <form id="mainForm">
       <header class="header">Calculator</header>
       <section class="container">
         <span class="col">Value 1 : <input type="text" id="value1"/></span>
@@ -27,12 +27,7 @@
         </span>
         <span class="col">Result is : </span>
         <div class="results" id="results"></div>
-        <button
-          class="btn-style"
-          type="button"
-          id="btnOperation"
-          onclick="calc(document.getElementById('value1').value,document.getElementById('value2').value,document.getElementById('operator').value)"
-        >
+        <button class="btn-style" type="button" id="btnOperation">
           Calculate
         </button>
       </section>
