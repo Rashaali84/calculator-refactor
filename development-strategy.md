@@ -1,6 +1,15 @@
-# Name of Project
+# calculator-refactor
 
-user story
+| _Step Name_                | User Story                                                                                                       | Changes in HTML                                                                                     | Changes in CSS                                             |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| **add-html** | As a web developer I want to layout the basic folders for my projects so I can navigate correctly | an index with all required html tags  | an empty main `style.css` , an empty java-script files |
+| **add-DOM**    | As a web developer Iwould like to add the needed ids to highlight the elements that I will use in the js files|changes in html tags with ids  |an empty main `style.css` and empty js files  |
+| **add-listener**           | As a web developer I would like to add a listener for my calculate button so when i clicked it a calculation happens |no changes   | an empty main `style.css` and update listener.js file  |
+| **add-handeler**             | As a web developer I would like to add a function to check  inputs and pass them to the logic js file| no chnages |no changes in the style.css , update the handeler.js file |
+ | **add-Logic**             | As a web developer I would like to add the core logic of my calculator so I can have a completer operations for div , mul , add, min| no chnages |no changes in the style.css , update the Logic.js file |
+ | **add-CSS**             | As a web developer I would like to add have a good style for my calculator| no chnages |major changes in  the style.css , no changes in th js files |
+ 
+ 
 
 wireframe
 
