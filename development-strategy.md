@@ -17,10 +17,10 @@ wireframe
 
 | tag name | attributes | role |
 | --- | --- | --- |
-| button| <button class="btn-style" type="button" id="btnOperation"> | has a listener and an event handeler |
-|main form | <form id="mainForm">|object to parse the chikdern elements|
-|an input text for first value| <input type="text" id="value1"/>|holds the input|
-|an input text for second value|<input type="text" id="value2"/>|holds the input|
+| button| id="btnOperation"| has a listener and an event handeler |
+|main form | id="mainForm"|object to parse the chikdern elements|
+|an input text for first value|  id="value1"|holds the input|
+|an input text for second value|id="value2"|holds the input|
 
 ## Styling
 
