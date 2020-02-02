@@ -5,7 +5,6 @@ function calc() {
     var a = mForm['value1'].value;
     var b = mForm['value2'].value;
     var op = mForm['operator'].value;
-
     var regex = /^[a-zA-Z]+$/;
     if (a.match(regex) || b.match(regex)) {
         document.querySelector("#results").innerText = "Please write numbers only";
