@@ -17,7 +17,7 @@ The motiviation of this project is to get more comfortable with java-script life
 ## Screenshots
 This is a screen-shot of the final live demo of this project.
 
-![screenshot](./img/calculator.png)
+![screenshot](./calculator.png)
 
 
 ## Technologies
