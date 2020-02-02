@@ -18,7 +18,7 @@ wireframe
 | tag name | attributes | role |
 | --- | --- | --- |
 | button| id="btnOperation"| has a listener and an event handeler |
-|main form | id="mainForm"|object to parse the chikdern elements|
+|main form | id="mainForm"|object to parse the childern elements|
 |an input text for first value|  id="value1"|holds the input|
 |an input text for second value|id="value2"|holds the input|
 
